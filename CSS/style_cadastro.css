@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor-font: #333;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    backdrop-filter: blur(70px);
+    background-repeat: no-repeat;
+}
+
+main {
+    flex: 1;
+}
+
+.cabecalho1 {
+    margin-left: 340px;
+    color: #fff;
+    position: absolute;
+    margin-top: 45px;
+    font-size: 33px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cabecalho2 {
+    margin-left: 340px;
+    color: #fff;
+    position: absolute;
+    margin-top: 85px;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    background: var(--cor-font);
+}
+
+.logo {
+    position: relative;
+    left: 90px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    width: 180px;
+    height: 150px;
+}
+
+.menu-icon {
+    width: 95px;
+    height: 28px;
+    vertical-align: middle;
+    filter: brightness(0) invert(1);
+    margin-left: 260px;
+    transition: #fff 0.3s, color 0.3s;
+    margin-top: -205px;
+}
+
+.account-icon {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    filter: invert(27%) sepia(24%) saturate(195%) hue-rotate(128deg) brightness(94%) contrast(90%);
+    margin-left: 1050px;
+    transition: #ababab 0.3s, color 0.3s;
+    margin-top: -190px;
+}
+.h1 {
+    margin-left: 10px;
+    color: #ffffff;
+    margin-right: 800px;
+}
+p{
+    margin-left:-630px ;
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 12px;
+    position: relative;
+    left: 565px;
+    margin-top: 17px;
+    width: 385px;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: space-between; /* Espaça os itens */
+    width: 100%; /* Para que o nav ocupe toda a largura */
+}
+
+nav a {
+    margin: 0 10px; /* Espaçamento entre os itens do menu */
+}
+
+.menu-icon, .account-icon {
+    width: 24px; /* Tamanho dos ícones */
+    height: 24px;
+}
+
+.b1 {
+    background-color: #276a40; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove bordas */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.b1:hover {
+    background-color: #215c34; /* Cor ao passar o mouse */
+}
+.escondesenha {
+    border-radius: 50px;
+    background-color: #b5b5b5;
+    border: 1px solid var(--cor-font);
+    width: 100px;
+    height: 40px;
+    padding-left: -10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+.forms{
+    margin-top: 50px;
+    position: relative;
+    top: 10px;
+    border-radius: 75px;
+    border: 2px solid #276a40;
+    width: 400px;
+    background-color: white;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+    height: 510px;
+    left: 550px;
+    text-align: center;
+}
+.nome{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #000000;
+    margin-left: -300px;
+    position: relative;
+}
+.Email{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #000000;
+    margin-left: -300px;
+    position: relative;
+}
+
+.senha{
+    font-family: "Sanchez", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #000000;
+    margin-left: -300px;
+    position: relative;
+}
+
+h2{
+    margin-top: 20px;
+    font-family: "Helvetica Neue";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #276a40;
+}
+.nomeinp, #TipoEmail, .senhainp {
+    border-radius: 50px;
+    border: 1px solid #276a40;
+    width: 340px;
+    background-color: #ffffff;
+    height: 40px;
+    
+    position: relative;
+    padding-left: 5px;
+}
+
+.cadastrar{
+    margin-top: 10px;
+    border-radius: 50px;
+    background-color: #276a40;
+    border: 1px solid var(--cor-font);
+    color: #ffffff;
+    width: 250px;
+    height: 50px;
+    padding-left: 5px;
+}
+
+footer{
+    margin-top: 50px;
+    height: 70px;
+}
+
+.ultimoP {
+    font-family: "Londrina Solid", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 12px;
+    position: relative;
+    left: 565px;
+    margin-top: 17px;
+    width: 385px;
+    text-align: center;
+    margin-left: 10px;
+}

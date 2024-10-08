@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style_cadastro.css">
+    <script src="JS/script_cadastro.js" defer></script>
+    <title>QUIZ</title>
+</head>
+<body>
+    <header>
+        <h1 class="cabecalho1">Quiz Profissional</h1>
+        <h1 class="cabecalho2">Descubra o profissional que existe em você!</h1>
+
+        <img src="imagens/logo3.png" class="logo" alt="Logo">
+        <nav>
+            <a href="quizes.html">
+                <img class="menu-icon" src="icons/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Menu Icon">
+            </a>
+            <a href="Cadastro.html">
+                <img class="account-icon" src="icons/person_add_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.svg" alt="Cadastrar">
+            </a>
+            <a href="Login.html">
+                <button class="b1">Login</button>
+            </a>
+        </nav>
+    </header>
+
+
+    <main>
+    <div class="forms">
+        <br>
+            <h2>CRIAR CONTA </h2>
+            <br><br>
+
+        <form id="loginForm">
+        <label class="nome" for="username">Nome:</label>
+            <br><br>
+
+        <input  class="nomeinp" id="username" name="username" required placeholder="usuario@empresa">
+            <br><br>
+
+        <label class="Email" for="TipoEmail">Email:</label>
+            <br><br>
+
+        <input type="emailinp" id="TipoEmail" placeholder="xxx@xxxxxxx.com.bt" required>
+            <br><br>  
+
+            <label class="senha" for="password">Senha:</label>
+            <br><br>
+            <input class="senhainp" id="password" name="senha" type="password" placeholder="************" required>
+            <button type="button" id="togglePassword">Mostrar Senha</button>
+            <br><br>
+            
+  
+        <input  class="cadastrar" type="submit" value="Cadastrar">
+            <br><br>    
+
+        </form>
+    </div>
+    </main>
+
+    <footer>
+        <p class="ultimoP">© [2024] [QUIZ PERFIL PROFISSIONAL]. Todos os direitos reservados. <br>
+            Termos de Uso | Política de Privacidade | Contato <br>
+            Siga-nos nas redes sociais.</p>
+    </footer>
+</body>
+</html>
